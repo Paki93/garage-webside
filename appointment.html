@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Book your appointment with us</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <ul class="nav-right"></ul>
+        <li>
+          <a href="appointment.html" class="book-btn">Book Appointment</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <form id="form">
+        <input type="text" name="user_name" placeholder="Full Name" required />
+        <input type="email" name="user_email" placeholder="Email" required />
+        <input
+          type="tel"
+          name="user_phone"
+          placeholder="Phone Number"
+          required
+        />
+        <input type="date" name="appointment_date" required />
+        <select name="service" required>
+          <option value="Oil Change">Oil Change</option>
+          <option value="Brake Repair">Brake Repair</option>
+        </select>
+        <input type="submit" id="button" value="Send Email" />
+      </form>
+    </main>
+
+    <!-- Load EmailJS SDK and initialize -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("XdTALZT0HqT-I9G9-"); // Replace with your real public key
+      })();
+    </script>
+
+    <!-- Your JS file -->
+    <script src="script.js"></script>
+  </body>
+</html>
