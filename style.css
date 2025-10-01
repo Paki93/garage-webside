@@ -1,8 +1,8 @@
-
 /* Page Header with background image */
 .page-header {
   height: 300px;
-  background-image: url('background.jpg'); /* Make sure path is correct */
+  background-image: url('background.jpg');
+  /* Make sure path is correct */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -16,7 +16,8 @@
 .page-header .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent layer */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark transparent layer */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,112 +43,115 @@
 
 /*old*/
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header styling */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  /* Navigation bar */
-  nav {
-    background-color: #444;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 15px;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    display: block;
-  }
-  
-  nav a:hover {
-    background-color: #666;
-  }
-  
-  /* Main content area */
-  main {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  form {
-    max-width: 500px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  form input, form select, form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  form button {
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #555;
-  }
-  /*Booking css */
-  .field {
-    margin-bottom: 10px;
-  }
-  
-  .field label {
-    display: block;
-    font-size: 12px;
-    color: #777;
-  }
-  
-  .field input {
-    display: block;
-    min-width: 250px;
-    line-height: 1.5;
-    font-size: 14px;
-  }
-  
-  input[type="submit"] {
-    display: block;
-    padding: 6px 30px;
-    font-size: 14px;
-    background-color: #4460AA;
-    color: #fff;
-    border: none
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
-  
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
 
- /* Services Grid */
+/* Navigation bar */
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+/* Main content area */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/*Booking css */
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
+
+
+
+/* Services Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -175,7 +179,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 1.2em;
   text-align: center;
@@ -186,7 +190,8 @@ body {
 /*About Us*/
 .page-header {
   height: 300px;
-  background-image: url('background.jpg'); /* Make sure this path is correct */
+  background-image: url('background.jpg');
+  /* Make sure this path is correct */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -216,7 +221,7 @@ body {
 .page-header .subtitle {
   font-size: 1.2rem;
   font-weight: 300;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 /* About Page Styling */
@@ -225,7 +230,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -247,10 +252,10 @@ body {
   margin-bottom: 15px;
 }
 
-  .about-section ul {
-    padding-left: 0;
-    list-style: none;
-    color: #444;
+.about-section ul {
+  padding-left: 0;
+  list-style: none;
+  color: #444;
 }
 
 .about-section ul li {
@@ -269,8 +274,9 @@ body {
   font-weight: bold;
   border-radius: 20px;
   padding: 8px 20px;
-  margin-left: 40px; /* ← This pulls it slightly toward center */
-  margin-top: 1.5mm; 
+  margin-left: 40px;
+  /* ← This pulls it slightly toward center */
+  margin-top: 1.5mm;
 }
 
 .book-btn:hover {
@@ -358,8 +364,10 @@ body {
   }
 
   .book-btn {
-    margin-left: 0;       /* Reset left spacing */
-    margin-top: 10px;     /* Add spacing for mobile */
+    margin-left: 0;
+    /* Reset left spacing */
+    margin-top: 10px;
+    /* Add spacing for mobile */
     display: inline-block;
   }
 }
@@ -373,7 +381,8 @@ body {
   }
 
   .service-card {
-    height: 150px; /* Slightly smaller for phones */
+    height: 150px;
+    /* Slightly smaller for phones */
   }
 
   .service-card span {
@@ -401,11 +410,11 @@ body {
   }
 
   .services-grid {
-    grid-template-columns: 1fr; /* Single column */
+    grid-template-columns: 1fr;
+    /* Single column */
   }
 
   .service-card {
     height: 180px;
   }
 }
-
